@@ -8,6 +8,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
   }
   
   .form-container {
@@ -18,6 +19,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 1px;
+    transform: scale(0.8);
   }
   
   h2 {
@@ -39,7 +41,6 @@ body {
     text-align: center; 
   }
   
-  
   input,
   textarea {
     width: 100%;
@@ -47,6 +48,12 @@ body {
     margin: 0 auto 10px auto;
     padding: 8px;
     resize: vertical;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+
+  #message {
+    border-radius: 17px;
   }
   
   .error {
